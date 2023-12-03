@@ -1,3 +1,4 @@
+node(){
 stage ('Clone work'){
     parallel (
         'Stage B1': {
@@ -17,3 +18,4 @@ stage ('Clone work'){
             echoHello()
         }
     )}
+}
