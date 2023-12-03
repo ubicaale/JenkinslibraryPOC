@@ -1,5 +1,3 @@
-library('library.groovy')
-
 stage ('Clone work'){
     parallel (
         'Stage B1': {
