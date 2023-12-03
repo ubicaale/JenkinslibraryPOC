@@ -13,9 +13,6 @@ stage ('Clone work'){
           stage ("Stage A3"){
             sh ' echo Collect Info'
           }
-        },
-        'Stage B4': {
-            echoHello()
         }
     )}
 }
