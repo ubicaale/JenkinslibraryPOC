@@ -11,8 +11,12 @@ stage ('Clone work'){
          },
         'Stage B3': {
           stage ("Stage A3"){
-            sh ' echo Collect Info'
+            echohello()
           }
         }
     )}
+}
+
+def echohello(){
+    sh 'echo hello from outside the node'
 }
